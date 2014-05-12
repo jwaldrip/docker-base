@@ -1,4 +1,4 @@
-FROM ubuntu:precise
+FROM ubuntu
 MAINTAINER Jason Waldrip <jason@waldrip.net>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y git curl wget software-properties-common python-software-properties
